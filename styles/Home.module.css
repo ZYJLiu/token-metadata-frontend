@@ -56,4 +56,16 @@
   font-size: 16px;
   border: 0;
   font-family: "Roboto", sans-serif;
+  transition-duration: 0.4s;
+}
+
+.formButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.formButton:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

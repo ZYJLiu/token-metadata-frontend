@@ -211,8 +211,7 @@ export const CreateMintForm: FC = () => {
       {txSig ? (
         <div>
           <p>Token Mint Address: {mint}</p>
-          <p>View Token </p>
-          <a href={link()}>Solana Explorer</a>
+          <a href={link()}>View Token on Solana Explorer</a>
         </div>
       ) : null}
     </div>
